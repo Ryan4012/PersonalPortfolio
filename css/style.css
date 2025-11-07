@@ -76,6 +76,12 @@ td li {
   border: 2px solid #00ccff;
   min-height: 300px;
 }
+.circuit-td h3 {
+  word-wrap: break-word;
+}
+.circuit-td ul {
+  word-wrap: break-word;
+}
 .circuit-td a {
   text-decoration: none;
   color: #00e5ff;
@@ -99,6 +105,12 @@ td li {
   padding: 5px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  word-wrap: break-word;
+  white-space: normal;
+
+}
+.firewall-td ul a {
+  word-wrap: break-word;
 }
 .firewall-td ul {
   background-color: rgba(0, 0, 0, 0.7);
@@ -128,6 +140,7 @@ td li {
   font-family: "Courier New", monospace;
   width: 100%;
   border-collapse: collapse;
+  word-wrap: break-word;
 }
 .matrix-td a:hover {
   text-decoration: underline;
@@ -249,7 +262,8 @@ footer ul img {
 
 
 
-header, body, table, th, td, footer {
-  max-width: 1300px;
+body, table, th, td {
+  width: 98%;
+  max-width: 1500px;
   margin: 0 auto;
 }
