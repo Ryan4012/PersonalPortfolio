@@ -48,11 +48,16 @@ td {
 
 td h3 {
   text-align: center;
+  word-wrap: break-word;
 }
 
 td ul {
   list-style: none;
   padding: 0px 10px;
+  word-wrap: break-word;
+}
+td p {
+  word-wrap: break-word;
 }
 
 td li {
@@ -263,7 +268,7 @@ footer ul img {
 
 
 body, table, th, td {
-  width: 98%;
+  width: 95%;
   max-width: 1500px;
   margin: 0 auto;
 }
