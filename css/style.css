@@ -214,6 +214,7 @@ td li {
 }
 /* Navigation Links End */
   
+
 /* Resume Format Begin */
 
 .resume-format p {
@@ -225,6 +226,7 @@ td li {
 }
 
 /* Resume Format End */
+
 
 /* Footer Begin */
 footer {
@@ -266,9 +268,12 @@ footer ul img {
 /* Footer End */
 
 
+/* Page Format Begin */
 
-body, table, th, td {
+body {
   width: 95%;
   max-width: 1500px;
   margin: 0 auto;
 }
+
+/* Page Format End */
